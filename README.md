@@ -2,19 +2,16 @@
 
 A version controlled key-value store with a HTTP API we can query that from. The API is able to:
 
-1. Accept a key(string) and value(some json blob/string) and store them. If an existing key is sent, the value should be updated
-2. Accept a key and return the corresponding latest value
-3. When given a key AND a timestamp, return whatever the value of the key at the time was.
+  - Accept a key(string) and value(some json blob/string) and store them. If an existing key is sent, the value should be updated
+  - Accept a key and return the corresponding latest value
+  - When given a key AND a timestamp, return whatever the value of the key at the time was.
 
 Assume only GET and POST requests for simplicity.
 Example:
 
 Method: POST
-
 Endpoint: /object
-
 Body: JSON: {mykey : value1}
-
 Time: 6pm
 
 Method: GET
