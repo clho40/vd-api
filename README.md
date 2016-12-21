@@ -9,26 +9,26 @@ A version controlled key-value store with a HTTP API we can query that from. The
 Assume only GET and POST requests for simplicity.
 Example:
 
-Method: POST
-Endpoint: /object
-Body: JSON: {mykey : value1}
-Time: 6pm
+> Method: POST
+> Endpoint: /object
+> Body: JSON: {mykey : value1}
+> Time: 6pm
 
-Method: GET
-Endpoint: /object/mykey
-Response: value1
+> Method: GET
+> Endpoint: /object/mykey
+> Response: value1
 
-Method: POST
-Endpoint: /object
-Body: JSON: {mykey : value2}
-Time: 6.05 pm
+> Method: POST
+> Endpoint: /object
+> Body: JSON: {mykey : value2}
+> Time: 6.05 pm
 
-Method: GET
-Endpoint: /object/mykey
-Response: value2
+> Method: GET
+> Endpoint: /object/mykey
+> Response: value2
 
-Method: GET
-Endpoint: /object/mykey?timestamp=1440568980 [6.03pm]
-Response: value1
+> Method: GET
+> Endpoint: /object/mykey?timestamp=1440568980 [6.03pm]
+> Response: value1
 
 All timestamps are unix timestamps according UTC timezone.
