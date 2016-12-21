@@ -10,8 +10,11 @@ Assume only GET and POST requests for simplicity.
 Example:
 
 Method: POST
+
 Endpoint: /object
+
 Body: JSON: {mykey : value1}
+
 Time: 6pm
 
 Method: GET
