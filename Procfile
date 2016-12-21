@@ -1,1 +1,1 @@
-web: gunicorn vd-api.py
+web: gunicorn vd-api:app
