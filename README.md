@@ -9,10 +9,12 @@ A version controlled key-value store with a HTTP API we can query that from. The
 Assume only GET and POST requests for simplicity.
 Example:
 
+```sh
 > Method: POST
 > Endpoint: /object
 > Body: JSON: {mykey : value1}
 > Time: 6pm
+```
 
 > Method: GET
 > Endpoint: /object/mykey
