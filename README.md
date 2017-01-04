@@ -42,3 +42,4 @@ Example:
 ```
 
 All timestamps are unix timestamps according UTC timezone.
+*Use this tool to convert unixtimestamps for testing http://www.epochconverter.com/
